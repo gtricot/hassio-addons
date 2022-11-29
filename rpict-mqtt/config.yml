@@ -46,7 +46,7 @@ schema:
   HASS_DISCOVERY_PREFIX: str
   SERIAL: str
   BAUD_RATE: int(0,)
-  DEVICE_MAPPING: list('RPICT3T1.json'|'RPICT3V1.json'|'RPICT4V3.json'|'RPICT7V1.json'|'RPICT8.json')
+  DEVICE_MAPPING: list(''RPICT3T1.json''|''RPICT3V1.json''|''RPICT4V3.json''|''RPICT7V1.json''|''RPICT8.json'')
   PRECISION: int(0,)
   ABSOLUTE_VALUES: bool
   SENSOR_VALUE_THRESHOLD: int(0,)
