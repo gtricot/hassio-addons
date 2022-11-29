@@ -1,0 +1,53 @@
+---
+
+########## GENERAL SETTINGS ######################################################################################################
+name: rpict-mqtt
+image: gtricot/rpict-mqttmqtt
+version: 1.3.0
+slug: rpict-mqtt
+description: Serial to MQTT LeChacal RPICT Bridge
+arch:
+  - armhf
+  - armv7
+  - aarch64
+  - amd64
+  - i386
+url: https://github.com/gtricot/rpict-mqtt.git
+services:
+  - mqtt:need
+udev: true
+uart: true
+environment:
+  HASSIO_ADDON: 'true'
+
+########## DEFAULT OPTIONS #######################################################################################################
+options:
+  MQTT_URL: mqtt://core-mosquitto:1883
+  MQTT_USER: ''
+  MQTT_PASSWORD: ''
+  MQTT_BASE_TOPIC: rpict
+  HASS_DISCOVERY: true
+  HASS_DISCOVERY_PREFIX: homeassistant
+  SERIAL: /dev/ttyAMA0
+  BAUD_RATE: 38400
+  DEVICE_MAPPING: RPICT7V1.json
+  PRECISION: 2
+  ABSOLUTE_VALUES: false
+  SENSOR_VALUE_THRESHOLD: 0
+  LOG_LEVEL: info
+
+########## OPTIONS SCHEMA ########################################################################################################
+schema:
+  MQTT_URL: str
+  MQTT_USER: str?
+  MQTT_PASSWORD: str?
+  MQTT_BASE_TOPIC: str
+  HASS_DISCOVERY: bool
+  HASS_DISCOVERY_PREFIX: str
+  SERIAL: str
+  BAUD_RATE: int(0,)
+  DEVICE_MAPPING: list('RPICT3T1.json'|'RPICT3V1.json'|'RPICT4V3.json'|'RPICT7V1.json'|'RPICT8.json')
+  PRECISION: int(0,)
+  ABSOLUTE_VALUES: bool
+  SENSOR_VALUE_THRESHOLD: int(0,)
+  LOG_LEVEL: list(debug|info|warn|error)
