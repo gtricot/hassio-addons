@@ -3,7 +3,7 @@
 ########## GENERAL SETTINGS ######################################################################################################
 name: rpict-mqtt
 image: gtricot/rpict-mqtt
-version: 2.0.1
+version: 3.0.0
 slug: rpict-mqtt
 description: Serial to MQTT LeChacal RPICT Bridge
 arch:
