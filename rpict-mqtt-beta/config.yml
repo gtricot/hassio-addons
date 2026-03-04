@@ -1,9 +1,9 @@
 ---
 
 ########## GENERAL SETTINGS ######################################################################################################
-name: RPICT to MQTT Bridge (Stable Version)
+name: RPICT to MQTT Bridge (Beta Version)
 image: gtricot/rpict-mqtt
-version: 3.0.1
+version: 4.0.0-beta.6
 slug: rpict-mqtt
 description: Serial to MQTT LeChacal RPICT Bridge
 arch:
