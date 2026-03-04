@@ -1,5 +1,11 @@
 # Changelog
 
+## 4.0.0-beta.5 (2026-03-03)
+
+### Breaking Changes
+- Migrated all JavaScript source files to TypeScript
+- Updated all dependencies to their latest versions
+
 ## 3.0.1 (2025-09-23)
 
 ### Bug Fixes
