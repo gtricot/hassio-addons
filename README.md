@@ -1,20 +1,22 @@
-# gtricot hass.io add-ons repository
-
-GTricot hass.io add-ons repository.
+# gtricot Home Assistant Apps repository
 
 ## Getting started
 
-### How to add this repository to Home-Assistant?
+### How to add this repository to Home Assistant?
 
-#### 1. Go to the ̀Supervisor` section of your Home-Assistant instance.
+#### 1. Go to the `Settings > App` page of your Home Assistant instance.
 
-#### 2. Click on the `Repositories` menu item
+#### 2. Click on the `Install App` bottom right button
 
-#### 3. Add the git http url ([https://github.com/gtricot/hassio-addons.git](https://github.com/gtricot/hassio-addons.git))
+#### 2. Click on the `... > Repositories` top right menu item
 
-### How to install an add-on?
+#### 3. Add the HTTPS Repo URL ([https://github.com/gtricot/hassio-addons](https://github.com/gtricot/hassio-addons))
 
-> [**Install rpict-mqtt**](rpict-mqtt/README.md)
+### How to install an app?
+
+> [**Install RPICT to MQTT Bridge (Stable Version)**](rpict-mqtt/README.md)
+
+> [**Install RPICT to MQTT Bridge (Beta Version)**](rpict-mqtt-beta/README.md)
 
 ## Contact & Support
 - Create a [GitHub issue](https://github.com/gtricot/hassio-addons/issues) for bug reports, feature requests, or questions

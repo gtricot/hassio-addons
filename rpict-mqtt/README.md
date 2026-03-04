@@ -1,19 +1,19 @@
-# rpict-mqtt add-on
+# RPICT to MQTT Bridge Home Assistant App (Stable Version)
 
-This add-on allows you to easily deploy and integrate [rpict-mqtt](https://gtricot.github.io/rpict-mqtt/) to [Home-Assistant](https://www.home-assistant.io/).
+This app allows you to easily deploy and integrate [rpict-mqtt](https://gtricot.github.io/rpict-mqtt/) to [Home-Assistant](https://www.home-assistant.io/).
 
-## How to install the add-on?
+## How to install the app?
 
-### 1. Search for the `rpict-mqtt` add-on and click on the item
+### 1. From Home Assistant Settings > Apps page, click the "Install app" button
 
-### 2. Click on the `Repositories` menu item
+### 2. Search for the `RPICT to MQTT Bridge` app and click on the item
 
 ### 3. Click on the `Install` button
 
 ### 4. Enable the options `Start on boot` and `Watchdog` (and optionally `Auto update` if you wish)
 
-### 5. Go to the add-on `Configuration` tab and configure the add-on
+### 5. Go to the `Configuration` tab and configure the app
 
-### 6. Go to the add-on `Info` tab and click on the `Start` button
+### 6. Go to the `Info` tab and click on the `Start` button
 
-### 7. Go to the add-on `Log` tab and check that the add-on is working as expected
+### 7. Go to the `Log` tab and check that the app is working as expected
